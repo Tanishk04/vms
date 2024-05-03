@@ -40,7 +40,7 @@ Create a superuser to access the admin panel and authenticate API endpoints:
 
 7. Access the API at http://127.0.0.1:8000/api/
 
-### Accessing API Endpoints
+## Accessing API Endpoints
 To access the API endpoints, you will need to authenticate. Follow these steps:
 
 - Open a web browser and go to http://127.0.0.1:8000/api/.
