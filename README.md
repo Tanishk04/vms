@@ -28,14 +28,28 @@ Follow these steps to set up and run the Vendor Management System locally:
     python manage.py makemigrations
     python manage.py migrate
 
-5. Run the development server:
+5. Create a Superuser
+Create a superuser to access the admin panel and authenticate API endpoints:
+
+    ```bash
+    python manage.py createsuperuser
+
+6. Run the development server:
     ```bash
     python manage.py runserver
 
-6. Access the API at http://127.0.0.1:8000/api/
+7. Access the API at http://127.0.0.1:8000/api/
+
+### Accessing API Endpoints
+To access the API endpoints, you will need to authenticate. Follow these steps:
+
+- Open a web browser and go to http://127.0.0.1:8000/api/.
+- Log in using the superuser credentials you created earlier.
+- Once logged in, you can manage users, vendors, and other data through the Django admin panel.
+- To access API endpoints programmatically, you will need to include an authentication token in the request headers. You can obtain the token by logging in through the appropriate authentication endpoint (e.g., /api/token/) using your superuser credentials.
+
 
 # API Endpoints
-
 The following endpoints are available in the Vendor Management System:
 
 ### /api/vendors/
