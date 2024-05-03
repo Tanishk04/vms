@@ -17,7 +17,7 @@ Follow these steps to set up and run the Vendor Management System locally:
 
 2. Navigate to the project directory:
     ```bash
-    cd vendor_management_system
+    cd vms
 
 3. Install dependencies:
     ```bash
