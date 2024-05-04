@@ -28,8 +28,7 @@ Follow these steps to set up and run the Vendor Management System locally:
     python manage.py makemigrations
     python manage.py migrate
 
-5. Create a Superuser
-Create a superuser to access the admin panel and authenticate API endpoints:
+5. Create a superuser to access the admin panel and authenticate API endpoints:
 
     ```bash
     python manage.py createsuperuser
